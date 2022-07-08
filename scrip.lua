@@ -113,7 +113,7 @@ end)
 --VScript Hub Premium Section--
 
 local VScriptHubPTab = Window:NewTab("VScript Premium")
-local VScriptHubPSection = VScriptPHubTab:NewSection("VScript Premium")
+local VScriptHubPSection = VScriptHubPTab:NewSection("VScript Premium")
 
 VScriptHubPSection:NewButton("Absalom Titan form", "Titan Form", function()
 

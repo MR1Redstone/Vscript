@@ -1,7 +1,7 @@
 wait(5)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("VScript Hub V/1.0", "Sentinel")
-print("You Actived VScript Hub V/1.0 |✔|")
+
 
 
 --Main
@@ -112,9 +112,23 @@ end)
 
 --VScript Hub Premium Section--
 
-local VScriptHubTab = Window:NewTab("VScript Premium")
-local VScriptHubSection = VScriptHubTab:NewSection("VScript Premium")
+local VScriptHubPTab = Window:NewTab("VScript Premium")
+local VScriptHubPSection = VScriptPHubTab:NewSection("VScript Premium")
 
+VScriptHubPSection:NewButton("Absalom Titan form", "Titan Form", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZmySaMrb", true))()
+end)
+
+VScriptHubPSection:NewButton("Remote Spy", "Remote Spy", function()
+
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/uUSdAFig")))
+end)
+
+VScriptHubPSection:NewButton("SimpleSpy", "SimpleSpy", function()
+
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/uUSdAFig")))
+end)
 
 
 --VScript Hub Section--
